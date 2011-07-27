@@ -1,0 +1,25 @@
+Blatt 3: Dimensionsreduktion von Codon-Usage Vektoren
+
+Aufgabe 1a) RSCU-Daten und PCA
+
+http://www.biomedcentral.com/1471-2105/7/142
+http://bioinf.may.ie/GCUA/calculatecodon.html
+
+
+RSCU:
+Ein Wert fuer die Haeufigket jedes beobacheten Codon,
+relative zu der erwarteten Haeufigkeit des Codons,
+wenn es keinen Bias gaebe.
+Somit waere ohne Bias alle Werte '1'.
+Weniger haeufige Werte haben einen Wert kleiner als '1',
+waehrend haeufigere einen Wert greoesser als '1' haben.
+Von den 4^3=64 moegliche Codons werden nur 59 verwendet,
+da 3 als Stop-Codons (UAA,UGA,UAG) und
+2 als Start Codons (AUG,GUG(Sonderfall bei Bakterien)) dienen.
+
+Fremdgene:
+Gene von anderen Species die entweder im Genom des Traegers
+vorhanden sind, oder durch Verunreinigung der Probe in Daten
+auftauchen koennen. Da es sich hauefig um Gene aus anderen
+Spezies/Domaenen handelt und die Codon-Usage sehr sepzifisch
+ist, muss sie fuer Fremdgene anders sein als fuer "Eigengene".
